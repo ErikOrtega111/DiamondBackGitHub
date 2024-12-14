@@ -1,0 +1,65 @@
+body {
+    background: black;
+}
+
+header {
+    border: dashed firebrick;
+}
+
+.container {
+    text-align: center;
+    border:5px solid turquoise;
+    background-color:#A71930;
+    
+}
+
+.header h2 {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0 0 3px turquoise, 0 0 5px turquoise
+}
+
+.features {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 80px auto;
+    max-width: 1200px;
+}
+
+.feature{
+    display: flex;
+    gap: 2rem;
+    background-color: grey;
+    border: 1px solid turquoise;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    min-height: 8rem;
+}
+
+.feature__text {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.feature__icon {
+  width: 200px;
+  height: 100px;
+}
+
+
+.feature__title {
+    color: turquoise;
+    text-shadow: 0 0 3px #A71930, 0 0 5px #A71930;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature__description {
+    color: white;
+}
